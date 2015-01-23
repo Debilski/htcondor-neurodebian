@@ -4,6 +4,7 @@ Voraussetzungen
   - Beliebig viele Rechner, die zu einem Rechencluster zusammen gebunden werden sollen
   - Eine virtuelle Maschine, die als Condor Host dienen soll. (Erreichbarkeit sollte gut sein, Maschine darf aber zwischendurch auch mal rebooten.)
   - Nutzer:Gruppe condor:condor im LDAP mit
+
         $ id condor
         uid=1111(condor) gid=1111(condor) groups=1111(condor)
 
